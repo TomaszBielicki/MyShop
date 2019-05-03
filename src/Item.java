@@ -49,7 +49,7 @@ public class Item
 
     public void sell(int qty) {
 
-        if (qty <= 0 && quantity >= qty){
+        if (qty > 0 && quantity >= qty){
             quantity -= qty;
         }
         else
